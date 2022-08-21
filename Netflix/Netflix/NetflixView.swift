@@ -153,7 +153,7 @@ class NetflixView: BaseView {
         
         nButton.snp.makeConstraints { make in
             make.top.equalTo(self.safeAreaLayoutGuide)
-            make.left.equalTo(12)
+            make.leading.equalTo(12)
         }
         
         topStackView.snp.makeConstraints { make in

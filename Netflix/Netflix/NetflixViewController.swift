@@ -7,7 +7,7 @@
 
 import UIKit
 
-class NetflixViewController: BaseviewController {
+class NetflixViewController: BaseViewController {
 
     var mainView = NetflixView()
     
@@ -22,6 +22,14 @@ class NetflixViewController: BaseviewController {
     
     override func configure() {
         
+        mainView.nButton.addTarget(self, action: #selector(nButtonTapped), for: .touchUpInside)
+    }
+    
+    @objc func nButtonTapped() {
+       
+        print(#function)
+        //vc.modalPresentationStyle = .fullScreen
+        present(RegisterViewController(), animated: true)
     }
     
 }

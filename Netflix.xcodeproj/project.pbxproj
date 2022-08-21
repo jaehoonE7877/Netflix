@@ -21,6 +21,9 @@
 		2568608E28B2148500722BEC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568608D28B2148500722BEC /* BaseViewController.swift */; };
 		2568609028B2149B00722BEC /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568608F28B2149B00722BEC /* BaseView.swift */; };
 		2568609328B220A000722BEC /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568609228B2209F00722BEC /* CircleImageView.swift */; };
+		2578620728B2806F00261F69 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2578620628B2806F00261F69 /* RegisterViewController.swift */; };
+		2578620928B280F000261F69 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2578620828B280F000261F69 /* RegisterView.swift */; };
+		2578620B28B2822200261F69 /* RegisterTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2578620A28B2822200261F69 /* RegisterTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		2568608D28B2148500722BEC /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		2568608F28B2149B00722BEC /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		2568609228B2209F00722BEC /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		2578620628B2806F00261F69 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2578620828B280F000261F69 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		2578620A28B2822200261F69 /* RegisterTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 				2568607228B2138E00722BEC /* Assets.xcassets */,
 				2568607428B2138E00722BEC /* LaunchScreen.storyboard */,
 				2568607728B2138E00722BEC /* Info.plist */,
+				2578620528B2805100261F69 /* Register */,
 				2568607D28B2139900722BEC /* Netflix */,
 				2568608028B213B800722BEC /* Utility */,
 			);
@@ -108,8 +115,18 @@
 			isa = PBXGroup;
 			children = (
 				2568609228B2209F00722BEC /* CircleImageView.swift */,
+				2578620A28B2822200261F69 /* RegisterTextField.swift */,
 			);
 			path = CustomView;
+			sourceTree = "<group>";
+		};
+		2578620528B2805100261F69 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				2578620628B2806F00261F69 /* RegisterViewController.swift */,
+				2578620828B280F000261F69 /* RegisterView.swift */,
+			);
+			path = Register;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +210,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2578620728B2806F00261F69 /* RegisterViewController.swift in Sources */,
+				2578620928B280F000261F69 /* RegisterView.swift in Sources */,
 				2568609328B220A000722BEC /* CircleImageView.swift in Sources */,
+				2578620B28B2822200261F69 /* RegisterTextField.swift in Sources */,
 				2568606E28B2138B00722BEC /* ViewController.swift in Sources */,
 				2568606A28B2138B00722BEC /* AppDelegate.swift in Sources */,
 				2568608C28B2144100722BEC /* NetflixView.swift in Sources */,
